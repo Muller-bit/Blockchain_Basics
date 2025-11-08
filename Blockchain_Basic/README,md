@@ -1,4 +1,23 @@
-
- ### Blockchain Basics
+### Blockchain Basics
 
 Blockchain Basics is a beginner-friendly yet rigorous course designed to give you a solid grasp of blockchain fundamentals. You’ll explore how blockchains work, what smart contracts do, how to send on-chain transactions, and why concepts like decentralization and scalability matter. Ideal for developers and non-technical learners alike.
+
+### This course Covers
+
+What blockchains are and how they work
+
+Key blockchain components: wallets, gas, nodes, consensus
+
+How to send transactions
+
+The role and risks of smart contracts
+
+How blockchains scale with L2 rollups
+
+Real-world use cases like DEXs, RWAs, stablecoins, and NFTs
+
+Blockchain threats like MEV and Sybil attacks
+
+The lifecycle of a blockchain transaction
+
+![alt text](image.png)
