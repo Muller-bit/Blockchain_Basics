@@ -39,3 +39,6 @@ Our modern world runs on intermediaries. We trust banks to manage our money, tec
 - Nodes processes txn and get economic insentive in the form of native token and contribute to security of the network
 
 ### What are smart contracts
+
+- Write smart contract ---> Compile it--> Deploy 
+- How to identify d/t contract - Each smart contract has their own unique address so that people can find them and interact with it like house address for parcel delivery.
