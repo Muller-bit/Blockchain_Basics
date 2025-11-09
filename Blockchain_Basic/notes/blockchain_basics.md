@@ -8,15 +8,30 @@ Our modern world runs on intermediaries. We trust banks to manage our money, tec
 - EVM - ERC20
 - 51% attack
 - Immutable
-- Upgradable samrt contract
+- Upgradable smart contract
 
-# Wallet
+### Wallet
 
 - Metamsk , Seed phrase -> gives access to all the account incase if i lost it
 - hot and cold wallet
 - Private Key - > gives acces to only one specific account
 - Many networks - Eth mainnet , Linea , base mainne etc and many more chains
 
-# Chain ID - all chain has their own chain id for instance ETH is 1 .
+### Chain ID - all chain has their own chain id for instance ETH is 1.
 
 - Sepolia , linea sepolia --> for testnet
+
+### sending transaction on testnet
+
+- Tenderly testnet(virtual testnet) - add the network prefix inaddition to Eth chain_Id and then we can get test fund from Tinderly
+- We can test also sending walet to wallet trasfer between accounts
+- tinderly prefix (1)
+
+### Note on testnet - people run the node voluntarly keep in mind
+
+### Introduction to Gas
+
+- Gas is the amount of computational power used to process our transaction.
+- Transcation Fee amount paid to process the transaction = gasused \* gas cost per unit(gas price) -![alt text](image.png)
+
+- So when we calculate we get , 0.000441495000470928 as the same as transaction fee mentioned above
