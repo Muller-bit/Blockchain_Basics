@@ -35,3 +35,7 @@ Our modern world runs on intermediaries. We trust banks to manage our money, tec
 - Transcation Fee amount paid to process the transaction = gasused \* gas cost per unit(gas price) -![alt text](image.png)
 
 - So when we calculate we get , 0.000441495000470928 as the same as transaction fee mentioned above
+
+- Nodes processes txn and get economic insentive in the form of native token and contribute to security of the network
+
+### What are smart contracts
