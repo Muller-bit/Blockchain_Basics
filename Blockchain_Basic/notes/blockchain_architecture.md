@@ -17,5 +17,8 @@
 - Meme pool - is place where all the transaction lives there before added to the blockchain
 - Signature - signing txn with a key
 - Cryptographic key -
-- Private key
-- Public key
+- Private key - we use to sign txn , like signature stamp
+- Public key - its like email address - can verify signature created by our private key and they are linked by math, one way
+- our wallet address is linked to our public key or its in short hashed version of it
+- in metamask confirm means we are creating digital signature using our private key
+- https://demos.updraft.cyfrin.io/ecdsa - use this demo to practice - its all inclusive 
