@@ -21,4 +21,48 @@
 - Public key - its like email address - can verify signature created by our private key and they are linked by math, one way
 - our wallet address is linked to our public key or its in short hashed version of it
 - in metamask confirm means we are creating digital signature using our private key
-- https://demos.updraft.cyfrin.io/ecdsa - use this demo to practice - its all inclusive 
+- https://demos.updraft.cyfrin.io/ecdsa - use this demo to practice - its all inclusive
+- Pows => Miners
+  -Pos => Validator stake eth
+- Keccak256 Hashing - algo - they are determistic , unique - > one way function
+
+### How Block Hashing Works:
+
+• Block Components: All block data (block number and associated data) is combined
+
+• Deterministic Process: Same block data always produces the same hash
+
+• Avalanche Effect: Changing any data completely changes the hash
+
+• Fixed Output: Hash is always 256 bits (64 hex characters) regardless of input size
+
+• Unique Fingerprint: Each unique block gets a unique hash - no two different blocks can have the same hash
+
+• Next Step: Once hashed, this unique fingerprint can be cryptographically signed by the block proposer
+
+### How Block Signing Works:
+
+• Hash Calculation: Block hash is calculated from all block components (number, previous hash, data, validator, timestamp)
+
+• Signing Process: The validator cryptographically signs the calculated hash
+
+• Verification: Any change to block data changes the hash, invalidating the signature
+
+• Security: This prevents tampering - any modification is immediately detectable
+
+• Ethereum Reality: Real validators sign block hashes using their private keys
+
+![alt text](image-1.png)
+
+### Pos Blockchain
+
+- Any one can become a validator afetr staking ETH and participating on the network.
+-
+- ![alt text](image-2.png)
+- Then validators need to validate based on the proposal
+- ![alt text](image-3.png)
+- After all they vote on the proposal and it will go to finality stage .
+
+### You can become a validator as well
+
+- ![alt text](image-4.png)
