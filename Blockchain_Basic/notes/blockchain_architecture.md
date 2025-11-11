@@ -56,12 +56,28 @@
 
 ### Pos Blockchain
 
-- Any one can become a validator after staking ETH and participating on the network need to have at leat 32 ETH
+- Any one can become a validator after staking ETH and participating on the network need to have at least 32 ETH and max is 2048 ETH.
 
 - ![alt text](image-2.png)
 - Then validators need to validate based on the proposal
 - ![alt text](image-3.png)
-- After all they vote on the proposal and it will go to finality stage. if total 2/3 vote yes them it go to final stage
+- After all they vote on the proposal and it will go to finality stage. if total 2/3 vote yes then it go to final stage and becomes irrivesable.
+- Majority rules!
+
+- POS dont have nounce instead they have signing .
+
+- Validators randomly chosen (Pseudo Rando) algorithm 
+
+### Slashing
+
+- If the validators mis consduct and violate consus they will be punished , slashed their portion of stake is called burning (Taken out of circulation) or destroying.
+
+- Validators can vote for punishment -   incase double signing blocks  , going offline mostly , surround voting - . other can prof this using cryptography for this violation to trigger the slashing mecahnism.
+
+- Every 12 sec(this is called Slots) the validator propose its block  and other committe just vote to validate all nned to aggree.
+- 32 Slots called Epoch = 6.4 minute or (its means that 12 * 32 /60) 
+- justified block  is the next  block immidiately after the finalized block and  then it will be -> final block (finality).
+- Game theory - an economic insentive to secure the network  while contributing to the network (cheaper than attack) and more benefial than attacking the network.(economic incentive)
 
 ### You can become a validator as well
 
