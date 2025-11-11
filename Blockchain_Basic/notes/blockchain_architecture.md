@@ -56,12 +56,12 @@
 
 ### Pos Blockchain
 
-- Any one can become a validator afetr staking ETH and participating on the network.
--
+- Any one can become a validator after staking ETH and participating on the network need to have at leat 32 ETH
+
 - ![alt text](image-2.png)
 - Then validators need to validate based on the proposal
 - ![alt text](image-3.png)
-- After all they vote on the proposal and it will go to finality stage .
+- After all they vote on the proposal and it will go to finality stage. if total 2/3 vote yes them it go to final stage
 
 ### You can become a validator as well
 
