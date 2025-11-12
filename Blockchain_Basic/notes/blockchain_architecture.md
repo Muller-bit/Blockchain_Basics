@@ -87,36 +87,36 @@
 
 - A critical overview of Understanding Common Blockchain Vulnerabilities - This lesson dissects major blockchain threats, from 51% attacks and MEV to client bugs and replay attacks. Discover why the security of major networks lies not in making attacks impossible, but...
 
-- ### Sybil attack
+- ## Sybil attack
 
 - same intity pretentds to be multiple intity to gain the majority of the node of the system(creating many multiple node ) inorder to out vote the the rest of the network particapnt (validators). - because they can reverse order history , bouble spend , approve fake txn
 
-- ### 51% Attack
+- ## 51% Attack
 
 - When they have control of more than 50% of the total staked ETH - they can manipulate the ETH fork algorithm.
 
-- ### Hard Fork -
+- ## Hard Fork -
 - When the community comes and takes the new version of the blockchain by spling to new chain - you can read more on ETH documentation
 
-### Blockchain (Re-org)
+## Blockchain (Re-org)
 
 - When history re- wrtiiten sometimes also called blockchain Reorganization
 
-### MEV (Maximal extractable value) and Sandwich Attacks
+## MEV (Maximal extractable value) and Sandwich Attacks
 
 - Mem Pool is just waiting room for the txn before confirmation
 - EX: a bot can see this pending txn on the mempool and exucute big trade right before you by paying high gas fees(like VIP ticket for instance ) and driving the token price very high and sell it for profit( that is to extract high value profit ) and its legal . Some DEXs have safe guard for this as a matter of protection.
 
 - The person who builds the block can choose the order of the transaction and the bot use MEV attack
 
-### Bugs in the client code
+## Bugs in the client code
 
 - ### The 184 Billion BTC Bug in 2010 - the community fixed the bug immidiately to 21 Million
 
 - the code written by human
 - The client code must be audidted very well
 
-- ### Replay Attacks
+- ## Replay Attacks
 
 - Like photocopying the check or signature and reuse it again on another chain .That is why we add chain-id and nonce to make it sure its unique.
 
