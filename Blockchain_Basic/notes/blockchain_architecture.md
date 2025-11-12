@@ -1,4 +1,4 @@
-### Blockchain Architecture Overview
+## Blockchain Architecture Overview
 
 - Consesus problem - come to an an aggreement
 - Sybil attacks - many nodes weight or creating psedoanonymous account on to the blockchain
@@ -7,7 +7,7 @@
 - After 6 blocks confirm added the probability of reversing it is minimum
 - Rewriting all the transaction history consume to much power
 
-### What is Hash and SHA256 algorithm?
+## What is Hash and SHA256 algorithm?
 
 - A unique fixed length of string used to identify a piece if data
 - Block , nonce , Data and finally Hash for the inserted data
@@ -26,7 +26,7 @@
   -Pos => Validator stake eth
 - Keccak256 Hashing - algo - they are determistic , unique - > one way function
 
-### How Block Hashing Works:
+## How Block Hashing Works:
 
 • Block Components: All block data (block number and associated data) is combined
 
@@ -40,7 +40,7 @@
 
 • Next Step: Once hashed, this unique fingerprint can be cryptographically signed by the block proposer
 
-### How Block Signing Works:
+## How Block Signing Works:
 
 • Hash Calculation: Block hash is calculated from all block components (number, previous hash, data, validator, timestamp)
 
@@ -54,7 +54,7 @@
 
 ![alt text](image-1.png)
 
-### Pos Blockchain
+## Pos Blockchain
 
 - Any one can become a validator after staking ETH and participating on the network need to have at least 32 ETH and max is 2048 ETH.
 
@@ -68,7 +68,7 @@
 
 - Validators randomly chosen (Pseudo Rando) algorithm
 
-### Slashing
+## Slashing
 
 - If the validators mis consduct and violate consus they will be punished , slashed their portion of stake is called burning (Taken out of circulation) or destroying.
 
@@ -79,7 +79,7 @@
 - justified block is the next block immidiately after the finalized block and then it will be -> final block (finality).
 - Game theory - an economic insentive to secure the network while contributing to the network (cheaper than attack) and more benefial than attacking the network.(economic incentive)
 
-### You can become a validator as well
+## You can become a validator as well
 
 - ![alt text](image-4.png)
 
