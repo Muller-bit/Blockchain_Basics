@@ -96,7 +96,7 @@
 - When they have control of more than 50% of the total staked ETH - they can manipulate the ETH fork algorithm.
 
 - ## Hard Fork -
-- When the community comes and takes the new version of the blockchain by spling to new chain - you can read more on ETH documentation
+- When the community comes and takes the new version of the blockchain by spliting to new chain - you can read more on ETH documentation
 
 ## Blockchain (Re-org)
 
@@ -124,3 +124,17 @@
 - Most of the the attacks in theory it looks possible but in real world its difficult because its take alot to attack than to steal !
 - To attack BTC we need Billions woth of Energy and For ETH Billion dollar worth of ETH.
 - The system is designed being honest is more profitable than cheating.
+
+## Hard Forks
+- How does ETH protocol ugrade and the hard fork
+- Community aggrees , 
+- The ETH merge upgrade 
+- The London Upgrade - Introduced the type 2 txn difilationary - fee burning mechanism and restructure the gas fees
+- The cancun upgrade - scalabiltiy and L2s  
+
+## DAO Fork in 2016
+
+- ETH hard forked to ETH classic after 160 million dollar hack of DAO
+
+## EIP (Ethereum improvment proposal)
+
